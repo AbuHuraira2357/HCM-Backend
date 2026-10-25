@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import User from "../models/User.js";
-import AuditLog from "../models/AuditLog.js";
+import AuditLog from "../models/Auditlog.js";
 
 export const createUser = async (req, res) => {
   const { name, email, password, role = "employee", department, designation, basicSalary } = req.body;

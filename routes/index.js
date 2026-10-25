@@ -10,6 +10,7 @@ import { stats } from "../controllers/dashboardController.js";
 const r = Router();
 
 // Auth
+
 r.post("/auth/setup-admin", auth.setupAdmin);
 r.post("/auth/login", auth.login);
 r.get("/auth/me", protect, auth.me);

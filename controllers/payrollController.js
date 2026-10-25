@@ -1,7 +1,7 @@
 import Payroll from "../models/Payroll.js";
 import User from "../models/User.js";
 import Attendance from "../models/Attendance.js";
-import AuditLog from "../models/AuditLog.js";
+import AuditLog from "../models/Auditlog.js";
 
 const WORKING_DAYS = 26;
 
